@@ -25,7 +25,7 @@ while true
         finalcomp = operating_line_calc(xstage(i+1),L,V,xB,xD,z,q,feedslope,feedintercept);
         break
     end
-    if i > 1000
+    if i > 20
         break
     end
 

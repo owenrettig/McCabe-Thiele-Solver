@@ -4,7 +4,7 @@ clear
 %import data from excel
 % Read all numeric data from a specific sheet
 filename = 'VLE Data.xlsx';
-sheetname = 'VLE'; % change to your sheet name
+sheetname = 'VLE3'; % change to your sheet name
 
 nums = readmatrix(filename, 'Sheet', sheetname);
 xcalc = linspace(0.0001,1,1000);

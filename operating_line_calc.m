@@ -21,7 +21,8 @@ bintercept = f(intercept) - bslope*(intercept);
 end
 
 %combined line
-if x <= z
+
+if x <= intercept
     y = bslope*x + bintercept;
 else
     y = tslope*x + tintercept;
